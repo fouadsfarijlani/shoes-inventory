@@ -1,0 +1,24 @@
+.segments__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.segments__text--novalue {
+    color: #706665;
+    font-size: 40px;
+    animation: SlideIn 200ms alternate;
+}
+
+@keyframes SlideIn {
+    from {
+        font-size: 0%;
+    }
+    70% {
+        font-size: 50%;
+    }
+    to {
+        font-size: 100%;
+    }
+}

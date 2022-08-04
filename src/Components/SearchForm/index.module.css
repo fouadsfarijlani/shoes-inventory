@@ -1,0 +1,28 @@
+.form__container {
+    border: dashed black 1px;
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+    margin-top: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__label {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.form__input {
+    border-radius: 12px;
+    font-size: 20px;
+}
