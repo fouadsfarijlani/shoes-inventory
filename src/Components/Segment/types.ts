@@ -1,7 +1,4 @@
-export interface IInventory {
-    date: Date,
-    quantity: number,
-}
+import { IInventory } from "../Segments/types"
 
 export interface ISegmentProps extends IInventory{
     index: number

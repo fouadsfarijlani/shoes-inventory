@@ -1,4 +1,4 @@
-import { IInventory } from "../Components/Segment/types";
+import { IInventory } from "../Components/Segments/types";
 
 export const calculateDeliveries = (qty: number, scheduledDeliveries: IInventory[]): IInventory[] => {
     let deliveryQty = qty;
