@@ -5,7 +5,7 @@ import './App.css';
 import SearchForm from './Components/SearchForm';
 import { calculateDeliveries } from './utils/calculateDeliveries';
 import { checkInputValue } from './utils/checkInputValue';
-import { IInventory } from './Components/Segment/types';
+import { IInventory } from './Components/Segments/types';
 
 
 const scheduledDeliveries: IInventory[] = [
